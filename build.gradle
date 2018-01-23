@@ -1,6 +1,6 @@
 buildscript {
     ext {
-        springBootVersion = '1.5.4.RELEASE'
+        springBootVersion = '1.5.9.RELEASE'
     }
     repositories {
         mavenCentral()
@@ -31,12 +31,15 @@ repositories {
     maven {
         url "https://repo.gradle.org/gradle/libs-releases-local/"
     }
+    maven {
+        url "https://repo.gradle.org/gradle/libs-snapshots-local/"
+    }
 }
 
 
 dependencies {
     compile('org.springframework.boot:spring-boot-starter')
-    compile('org.gradle:gradle-tooling-api:4.0.1')
+    compile('org.gradle:gradle-tooling-api:4.4-20171112235945+0000')
 
     testCompile('org.springframework.boot:spring-boot-starter-test')
 }
