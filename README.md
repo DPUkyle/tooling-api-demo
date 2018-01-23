@@ -1,7 +1,7 @@
 To reproduce [issue 2483](https://github.com/gradle/gradle/issues/2483) as originally reported by [coney](https://github.com/coney).
 
 ```bash
-gradle build
+./gradlew build
 java -jar build/libs/tooling-api-demo-0.0.1-SNAPSHOT.jar
 ```
 

@@ -48,3 +48,6 @@ task hello << {
     println "hello world"
 }
 
+wrapper {
+  gradleVersion '4.4.1'
+}
